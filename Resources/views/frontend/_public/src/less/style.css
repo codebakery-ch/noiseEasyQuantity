@@ -1,0 +1,48 @@
+.page-wrap .buybox--quantity .js--fancy-select,
+.js--modal .buybox--quantity .js--fancy-select {
+	position: absolute;
+	left: -999px;
+	top: -999px;
+}
+.page-wrap .decoy_wrapper,
+.js--modal .decoy_wrapper {
+	position: relative;
+	height: 50px;
+}
+.page-wrap .decoy_wrapper #sQantity_decoy,
+.js--modal .decoy_wrapper #sQantity_decoy {
+	width: 50%;
+	left: 0;
+}
+.page-wrap .decoy_wrapper #qPlus,
+.js--modal .decoy_wrapper #qPlus {
+	height: 40px;
+	width: 40px;
+	background: none;
+	box-shadow: none;
+	border: none;
+	color: #bf9474;
+	right: 0;
+	position: absolute;
+}
+.page-wrap .decoy_wrapper #qPlus.disabled,
+.js--modal .decoy_wrapper #qPlus.disabled {
+	cursor: default;
+	opacity: 0.5;
+}
+.page-wrap .decoy_wrapper #qMinus,
+.js--modal .decoy_wrapper #qMinus {
+	height: 40px;
+	background: none;
+	box-shadow: none;
+	border: none;
+	position: absolute;
+	right: 45px;
+	width: 40px;
+	color: #bf9474;
+}
+.page-wrap .decoy_wrapper #qMinus.disabled,
+.js--modal .decoy_wrapper #qMinus.disabled {
+	cursor: default;
+	opacity: 0.5;
+}

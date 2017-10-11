@@ -1,0 +1,48 @@
+
+.page-wrap, .js--modal {
+  .buybox--quantity {
+    .js--fancy-select {
+      position: absolute;
+      left: -999px;
+      top: -999px;
+    }
+  }
+  .decoy_wrapper {
+    position: relative;
+    height: 50px;
+    #sQuantity_decoy {
+      width: 40%;
+      left: 0;
+    }
+    #qPlus {
+      height: 40px;
+      width: 40px;
+      background: none;
+      box-shadow: none;
+      border: none;
+      color: #1d1d1b;
+      right: 0;
+      position: absolute;
+      &.disabled {
+        cursor: default;
+        opacity: 0.5;
+        color: #e1e1e1;
+      }
+    }
+    #qMinus {
+      height: 40px;
+      background: none;
+      box-shadow: none;
+      border: none;
+      position: absolute;
+      right: 45px;
+      width: 40px;
+      color: #1d1d1b;
+      &.disabled {
+        cursor: default;
+        opacity: 0.5;
+        color: #e1e1e1;
+      }
+    }
+  }
+}
