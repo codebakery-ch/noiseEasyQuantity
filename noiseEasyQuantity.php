@@ -28,13 +28,13 @@ class noiseEasyQuantity extends \Shopware\Components\Plugin
 		);
 	}
 
-	public function addLessFiles(Enlight_Event_EventArgs $args)
+	public function addLessFiles(\Enlight_Event_EventArgs $args)
 	{
 		$less = new \Shopware\Components\Theme\LessDefinition([], [__DIR__ . '/Resources/views/frontend/_public/src/less/style.less']);
 		return new  ArrayCollection([$less]);
 	}
 
-	public function addJSFiles(Enlight_Event_EventArgs $args)
+	public function addJSFiles(\Enlight_Event_EventArgs $args)
 	{
 		$jsFiles = array(__DIR__ . '/Resources/views/frontend/_public/src/js/script.js');
 
